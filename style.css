@@ -13,10 +13,14 @@ html {
     background-color: rgb(22, 50, 87);
 }
 
+.bg-grey {
+    background-color: rgb(211, 211, 211);
+}
+
 .bg {
     background: url(img/background-header.png);
-    height: 500px;
-    background-size: contain;
+    background-size: cover;
+    height: 400px;
 }
 
 .container {
@@ -48,6 +52,14 @@ html {
 
 .col-40 {
     width: 40%;
+}
+
+.col-30 {
+    width: 30%;
+}
+
+.col-5 {
+    width: 5%;
 }
 
 .right {
@@ -118,11 +130,74 @@ li {
 }
 
 .title {
-    padding-top: 50px;
+    padding-top: 130px;
+    color: white;
+    font-size: 35px;
+    width: 60%;
 }
 
 .big {
-    padding: 10px 20px;
+    padding: 20px 30px;
     font-size: 12px;
     margin-top: 20px;
+}
+
+.center {
+    text-align: center;
+}
+
+.school {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-size: 19px;
+}
+
+.course {
+    padding-bottom: 30px;
+    color: rgb(167, 167, 167);
+}
+
+.column.col-5 {
+    height: 10px;
+}
+
+.image-mid {
+    width: 50%;
+    padding-top: 30px;
+}
+
+.one {
+    width: 85%;
+}
+
+.top {
+    padding-top: 20px;
+}
+
+.two {
+    width: 60%;
+}
+
+.hr {
+    border: 1px solid grey;
+    width: 20%;
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.light-blue {
+    color: rgb(160, 183, 212);
+}
+
+.course.top {
+    padding-top: 15px;
+    width: 60%;
+    padding-bottom: 10px;
+}
+
+.school.top {
+    width: 50%;
+    padding-top: 80px;
+    padding-bottom: 0;
 }
